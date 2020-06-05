@@ -1,0 +1,28 @@
+{
+    "name": "fuyuezhen/tp51-addons",
+    "description": "thinkphp5.1 插件开发核心",
+    "authors": [
+        {
+            "name": "FuYueZhen",
+            "email": "976066889@qq.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "type": "think-extend",
+    "extra": {
+        "think-config": {
+            "addons": "src/config.php"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
